@@ -1,0 +1,40 @@
+{
+  "name": "my-tiny-react",
+  "version": "0.0.0",
+  "description": "A simple version of react for my blog's explanation Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaojinxiang/MyTinyReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Zhao Jinxiang",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zhaojinxiang/MyTinyReact/issues"
+  },
+  "homepage": "https://github.com/zhaojinxiang/MyTinyReact#readme",
+  "devDependencies": {
+    "@types/karma-jasmine": "0.0.29",
+    "cz-conventional-changelog": "^2.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coveralls": "^1.1.2",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-typescript": "^3.0.6",
+    "tslint-config-airbnb": "^5.3.0",
+    "typescript": "^2.5.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
